@@ -1,8 +1,13 @@
 // Let us access the first character in 'JavaScript' string.
 
 // charAt(): Takes index and it returns the value at that index
-string.charAt(index)
-let string = '30 Days Of JavaScript'
-console.log(string.charAt(0)) // 3
+let string = 'JavaScript'
+let firstLetter = string[0]
+console.log(firstLetter) // J
+let secondLetter = string[1] // a
+let thirdLetter = string[2]
+let lastLetter = string[9]
+console.log(lastLetter) // t
 let lastIndex = string.length - 1
-console.log(string.charAt(lastIndex)) // t
+console.log(lastIndex) // 9
+console.log(string[lastIndex]) // t
